@@ -19,11 +19,6 @@ class LogoWidget extends StatelessWidget {
   var name = "hamza";
   var date = "02/09/2024";
 
-  void myInfo(){
-    print("My name is $name and" );
-    print("My age is $age");
-
-  }
 
   void myDOB(){
     if (age > 18){

@@ -28,8 +28,12 @@ class LogoWidget extends StatelessWidget {
       debugPrint("I am less than 18");
       return;
     }
-
   }
+
+  void newFun(){
+    debugPrint("Hey, I am a new function");
+  }
+
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,

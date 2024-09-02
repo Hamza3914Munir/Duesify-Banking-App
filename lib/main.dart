@@ -31,7 +31,6 @@ class LogoWidget extends StatelessWidget {
   }
 
   void newFun(){
-    debugPrint("Hey, I am a new function");
   }
 
   Widget build(BuildContext context) {

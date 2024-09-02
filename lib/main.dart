@@ -24,6 +24,17 @@ class LogoWidget extends StatelessWidget {
     print("My age is $age");
 
   }
+
+  void myDOB(){
+    if (age > 18){
+      debugPrint("I am 18+");
+      return;
+    }else{
+      debugPrint("I am less than 18");
+      return;
+    }
+
+  }
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
